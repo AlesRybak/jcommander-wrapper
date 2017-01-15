@@ -49,7 +49,7 @@ public class CommandController<G> {
         jcommander.parse(args);
         String commandName = jcommander.getParsedCommand();
 
-        if (commandName.equals(HelpCommandParams.COMMAND_NAME)) {
+        if (commandName == null || commandName.equals(HelpCommandParams.COMMAND_NAME)) {
             runHelpCommand();
         } else {
             CommandRunner commandRunner = runners.get(commandName);
