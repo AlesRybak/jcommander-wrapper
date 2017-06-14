@@ -4,7 +4,7 @@
 
     <groupId>cz.alry.jcommander</groupId>
     <artifactId>jcommander-wrapper</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>JCommander Wrapper</name>
