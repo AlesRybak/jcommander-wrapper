@@ -41,7 +41,7 @@ public class CommandControllerTest {
         controller.run(new String[]{"help"});
 
         // then
-        assertThat(systemOutRule.getLog().trim(), containsString("help [options]"));
+        assertThat(systemOutRule.getLog().trim(), containsString("Usage: help"));
         assertThat(systemOutRule.getLog().trim(), containsString("test [options]"));
     }
 
